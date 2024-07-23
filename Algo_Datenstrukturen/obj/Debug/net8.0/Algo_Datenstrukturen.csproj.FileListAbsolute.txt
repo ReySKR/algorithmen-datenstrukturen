@@ -1,0 +1,14 @@
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/bin/Debug/net8.0/Algo_Datenstrukturen
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/bin/Debug/net8.0/Algo_Datenstrukturen.deps.json
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/bin/Debug/net8.0/Algo_Datenstrukturen.runtimeconfig.json
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/bin/Debug/net8.0/Algo_Datenstrukturen.dll
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/bin/Debug/net8.0/Algo_Datenstrukturen.pdb
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/Algo_Datenstrukturen.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/Algo_Datenstrukturen.AssemblyInfoInputs.cache
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/Algo_Datenstrukturen.AssemblyInfo.cs
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/Algo_Datenstrukturen.csproj.CoreCompileInputs.cache
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/Algo_Datenstrukturen.dll
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/refint/Algo_Datenstrukturen.dll
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/Algo_Datenstrukturen.pdb
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/Algo_Datenstrukturen.genruntimeconfig.cache
+/Users/stephr/RiderProjects/Algo_Datenstrukturen/Algo_Datenstrukturen/obj/Debug/net8.0/ref/Algo_Datenstrukturen.dll

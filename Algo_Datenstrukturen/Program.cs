@@ -6,6 +6,6 @@ class Program
     {
         int[] toSort = { 5, 9, 2, 3, 8, 1, 3 };
         SortingAlgorithms<int> sortingAlgorithms = new SortingAlgorithms<int>(toSort);
-        sortingAlgorithms.Selectionsort();
+        sortingAlgorithms.InsertionSort();
     }
 }

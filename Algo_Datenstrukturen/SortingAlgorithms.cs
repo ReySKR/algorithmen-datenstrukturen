@@ -2,6 +2,8 @@ namespace Algo_Datenstrukturen;
 
 public class SortingAlgorithms<T> where T : IComparable<T>
 {
+    /*Klausurtipps / -erkenntnisse:
+     1. Überlege ob die Funktion für ein Minima geht und für von deren Maxima-1 auf das Maxima schließbar ist. Wenn das so ist stimmt die Funktion mit hoher Wahrscheinlichkeit! */
     private T[] toSort;
     
     public SortingAlgorithms(T[] toSort)
@@ -54,6 +56,26 @@ public class SortingAlgorithms<T> where T : IComparable<T>
             }
     
             Swap(currentMinimumIndex, i); 
+        }
+    }
+
+    public void InsertionSort()
+    {
+        printArray();
+        /*
+         * Idee:
+         * Iteriere über Liste. Nehme dabei den aktuellen Index der Iteration als Teiler der Liste. Unterer Teil ist sortiert, oberere unsortiert.
+         * Vergleiche ob Elemente der unsortierten Liste kleiner sind als das Maximum der unsortierten Liste. Wenn ja dann Inserte diese solange ein bis sortiert
+         */
+        for (int i = 1; i < toSort.Length+1; i++)
+        {
+            int currentMaximumIndex = i - 1;
+            int j = currentMaximumIndex;
+            while ((j >= 1) && (toSort[j].CompareTo(toSort[j - 1]) < 0))
+            {
+                Swap(j, j - 1);
+                j--;
+            }
         }
     }
 

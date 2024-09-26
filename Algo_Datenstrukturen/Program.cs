@@ -1,11 +1,15 @@
-﻿namespace Algo_Datenstrukturen;
+﻿using Algo_Datenstrukturen.Algorithms;
+
+namespace Algo_Datenstrukturen;
 
 class Program
 {
     static void Main(string[] args)
     {
-        int[] toSort = { 5, 9, 2, 3, 8, 1, 3 };
-        SortingAlgorithms<int> sortingAlgorithms = new SortingAlgorithms<int>(toSort);
-        sortingAlgorithms.InsertionSort();
+        int[] array =  {1, 3, 2, 5, 4};
+
+        SortingAlgorithms<int> sort = new SortingAlgorithms<int>(array);
+        sort.QuickSort(0, 4);
+        Console.WriteLine(SearchAlgorithms.BinarySearch(array, 5, 0, 4));
     }
 }

@@ -79,6 +79,35 @@ public class SortingAlgorithms<T> where T : IComparable<T>
         }
     }
 
+    public void QuickSort(int left, int right)
+    {
+        if (left < right)
+        {
+            int pivotIndex = Partition(left, right);
+            QuickSort(left, pivotIndex-1);
+            QuickSort(pivotIndex+1, right);
+        }
+    }
+
+    private int Partition(int left, int right)
+    {
+        int pivotIndex = new Random().Next(left, right);
+        var pivot = toSort[pivotIndex];
+        Console.WriteLine("Swap of Pivot");
+        Swap(pivotIndex, right);
+        int leftPointer = left;
+        for (int i = left; i < right; i++)
+        {
+            if (toSort[i].CompareTo(pivot) <= 0)
+            {
+                Swap(i, leftPointer);
+                leftPointer++;
+            }
+        }
+        Swap(leftPointer, right);
+        return leftPointer;
+    }
+
     private void printArray()
     {
         for (int i = 0; i < toSort.Length; i++)
